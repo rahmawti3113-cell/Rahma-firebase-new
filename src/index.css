@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@keyframes glow-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(255, 105, 180, 0.7); }
+  70% { box-shadow: 0 0 0 15px rgba(255, 105, 180, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(255, 105, 180, 0); }
+}
+
+@utility animate-glow-pulse {
+  animation: glow-pulse 2s infinite;
+}

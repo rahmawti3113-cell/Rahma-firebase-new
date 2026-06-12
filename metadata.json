@@ -1,0 +1,10 @@
+{
+  "name": "Remix: Remix: Smart Home IoT Control-backup-2",
+  "description": "Kendali 4 relay dan pemantauan DHT22 via Firebase Realtime Database dengan perintah suara.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
